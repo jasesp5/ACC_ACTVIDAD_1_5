@@ -13,15 +13,7 @@ public class DatosPersonales {
     private int id;
     
     private String apellido;
-
-    public int getId() {
-        return id;
-    }
-
-    public String getApellido() {
-        return apellido;
-    }
-
+    
     @Override
     public String toString() {
         return "DatosPersonales{" + "id=" + id + ", apellido=" + apellido + '}';

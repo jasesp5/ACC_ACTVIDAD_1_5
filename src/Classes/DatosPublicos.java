@@ -11,7 +11,7 @@ package Classes;
  */
 public class DatosPublicos {
     
-    private int departamento;
+     int departamento;
     
     private float nomina; 
 
@@ -20,16 +20,8 @@ public class DatosPublicos {
         this.nomina = nomina;
     }
 
-    public void setDepartamento(int departamento) {
-        this.departamento = departamento;
+    @Override
+    public String toString() {
+        return "DatosPublicos{" + "departamento=" + departamento + ", nomina=" + nomina + '}';
     }
-
-    public void setNomina(float nomina) {
-        this.nomina = nomina;
-    }
-
-    public int getDepartamento() {
-        return departamento;
-    }
-    
 }

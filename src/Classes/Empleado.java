@@ -11,9 +11,9 @@ package Classes;
  */
 public class Empleado {
     
-    private DatosPersonales datosPersonales;
+    public DatosPersonales datosPersonales;
     
-    private DatosPublicos datosPublicos;
+    public DatosPublicos datosPublicos;
 
     public Empleado(DatosPersonales datosPersonales, DatosPublicos datosPublicos) {
         this.datosPersonales = datosPersonales;
