@@ -24,4 +24,13 @@ public class DatosPublicos {
     public String toString() {
         return "DatosPublicos{" + "departamento=" + departamento + ", nomina=" + nomina + '}';
     }
+
+    public int getDepartamento() {
+        return departamento;
+    }
+
+    public float getNomina() {
+        return nomina;
+    }
+    
 }

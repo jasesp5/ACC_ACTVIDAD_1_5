@@ -23,4 +23,13 @@ public class DatosPersonales {
         this.id = id;
         this.apellido = apellido;
     }
+
+    public int getId() {
+        return id;
+    }
+
+    public String getApellido() {
+        return apellido;
+    }
+    
 }

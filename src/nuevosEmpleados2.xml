@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><Empleados>
+    <empleado>
+        <datosPersonales>
+            <id>1</id>
+            <Apellido>Fernandez</Apellido>
+        </datosPersonales>
+        <datosPublicos>
+            <dep>10</dep>
+            <salario>1000.45</salario>
+        </datosPublicos>
+    </empleado>
+    <empleado>
+        <datosPersonales>
+            <id>2</id>
+            <Apellido>Sanz</Apellido>
+        </datosPersonales>
+        <datosPublicos>
+            <dep>12</dep>
+            <salario>12500.0</salario>
+        </datosPublicos>
+    </empleado>
+    <empleado>
+        <datosPersonales>
+            <id>3</id>
+            <Apellido>Cuadri</Apellido>
+        </datosPersonales>
+        <datosPublicos>
+            <dep>5</dep>
+            <salario>2000.45</salario>
+        </datosPublicos>
+    </empleado>
+</Empleados>

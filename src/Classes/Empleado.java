@@ -19,4 +19,13 @@ public class Empleado {
         this.datosPersonales = datosPersonales;
         this.datosPublicos = datosPublicos;
     }
+
+    public DatosPersonales getDatosPersonales() {
+        return datosPersonales;
+    }
+
+    public DatosPublicos getDatosPublicos() {
+        return datosPublicos;
+    }
+    
 }

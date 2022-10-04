@@ -25,6 +25,7 @@ public class Actividad15 {
     private static DatosPublicos datosPublicos;
     private static DatosPersonales datosPersonales;
     private static Empleado empleado;
+    private static WritterEmpleados writerEmpleado = new WritterEmpleados(); 
     private static  ArrayList<Empleado> empleadoArrayList = new ArrayList<Empleado>();
 
     /**
@@ -94,6 +95,7 @@ public class Actividad15 {
         }
         
         readAllEmpleados();
+        writerEmpleado.writeEmpleados(empleadoArrayList);
 
     }
     
@@ -103,5 +105,7 @@ public class Actividad15 {
             System.out.println(empleado1.datosPublicos.toString());
         }
     }
+    
+  
 
 }
